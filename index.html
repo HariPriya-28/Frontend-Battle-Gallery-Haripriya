@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Battle Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader Overlay -->
+    <div id="loader">
+        <img src="loader.gif" alt="Loading..." />
+        <noscript>Loading...</noscript>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Frontend Battle</a>
+            <ul class="nav-links">
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="toggleMode" title="Toggle Light/Dark Mode" aria-label="Toggle Light or Dark Mode">
+                        <span id="modeIcon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <h1>Welcome to Frontend Battle</h1>
+            <p>Showcasing creativity, responsiveness, and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="stats.png" alt="Stats">
+                    <div class="caption">Stats</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="graph.png" alt="Graph">
+                    <div class="caption">Graph</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="cards.png" alt="Cards">
+                    <div class="caption">Cards</div>
+                </div>
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="testimonials.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="caption">Testimonials</div>
+                </div>
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="showcase work.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="caption">Showcase Work</div>
+                </div>
+                <!-- Loader image removed from gallery -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container1">
+            <h2>Features</h2>
+            <ul class="features-list">
+                <li>Responsive Design</li>
+                <li>Light & Dark Mode</li>
+                <li>Loader Animation</li>
+                <li>Gallery with Images & Videos</li>
+                <li>Navbar with Section Links</li>
+                <li>Interactive Lightbox for Images</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About</h2>
+            <p>This project is built for the Frontend Battle coding competition. All code is original or generated with the help of AI tools (GitHub Copilot).</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>For queries, email: <a href="mailto:haripriyagajula20@gmail.com">haripriyagajula20@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2025 Frontend Battle. Built with ❤️ and AI tools (GitHub Copilot).
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
