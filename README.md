@@ -1,1 +1,3 @@
-# Frontend-Battle-Gallery-Haripriya
+index.html
+styles.css
+script.js
